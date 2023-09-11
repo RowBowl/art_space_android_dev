@@ -3,11 +3,14 @@
 
     <string name="title_1">GOKU</string>
     <string name="info_1">Edu Souza (2023)</string>
+    <string name="caption_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis ipsum, sollicitudin et tellus at, rutrum efficitur leo. Nam lorem libero, fermentum id sodales eget, ullamcorper sit amet dui. Etiam sagittis nunc sit amet sodales pharetra. Integer eget dapibus nibh, nec porttitor lacus. Curabitur scelerisque non est at porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eu convallis lacus. Donec non nunc finibus velit rutrum hendrerit quis at risus. Maecenas id mauris at dui mollis ultricies efficitur in tellus.</string>
 
     <string name="title_2">doggust2023</string>
     <string name="info_2">Jonathan Wesslund</string>
+    <string name="caption_2">Donec at semper massa. Morbi et eleifend sem, in commodo risus. Suspendisse in lectus turpis. Suspendisse pellentesque rutrum bibendum. Suspendisse dignissim accumsan nisi rutrum volutpat. Nullam tincidunt, lacus id pharetra tempor, turpis ex cursus neque, quis malesuada libero leo id purus. Etiam sem odio, fringilla eu quam vel, ultricies tincidunt orci. Maecenas sed sapien in felis pretium dignissim. Praesent pharetra risus felis, sed lobortis quam varius vitae. Duis eleifend quam quis neque tempor, eu vehicula leo aliquam. Donec varius finibus orci. Phasellus ornare et velit tempus vestibulum. Nunc at sodales turpis. Aenean tincidunt neque vitae purus rutrum, eget hendrerit lectus feugiat.</string>
 
     <string name="title_3">Lichenbackfalls</string>
     <string name="info_3">Asanee Srikijvilaikul (2023)</string>
+    <string name="caption_3">Etiam tristique molestie lorem, ac consectetur magna pretium eget. Duis vel nulla tristique, sagittis nisl a, fringilla leo. Integer suscipit mauris ac cursus vulputate. Cras quam enim, pellentesque et nunc id, hendrerit varius sem. Nunc purus nulla, lobortis pharetra turpis vitae, pharetra tempus urna. Proin ultricies dapibus turpis, volutpat posuere est vehicula vitae. Aliquam non varius turpis, ac condimentum dui. Cras fermentum nulla feugiat, vestibulum mi id, ullamcorper ligula. Nunc molestie fermentum ipsum, in pulvinar libero porttitor sed. Nulla at volutpat ipsum. Nunc placerat, lorem at hendrerit tincidunt, nibh felis interdum nunc, vel semper ligula urna vel tortor. Donec lacinia urna et felis auctor, in vestibulum ex ornare.</string>
 
 </resources>
