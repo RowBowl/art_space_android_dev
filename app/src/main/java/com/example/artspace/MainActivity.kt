@@ -156,7 +156,7 @@ fun ArtRow (imageId: Int, modifier: Modifier = Modifier) {
             elevation = CardDefaults
                  .cardElevation(defaultElevation = 6.dp),
             modifier = Modifier
-                .height(550.dp)
+                //.height(550.dp)
         ) {
             Image(
                 painter = painterResource(imageId),
@@ -193,9 +193,6 @@ fun ArtButtonRow (
     onPreviousClick: () -> Unit,
     onNextClick: () -> Unit,
     modifier: Modifier = Modifier) {
-
-
-    Text("Current Number: $number")
 
     Row (
          modifier = Modifier
