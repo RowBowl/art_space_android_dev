@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Art Space</string>
+
+    <string name="title_1">GOKU</string>
+    <string name="info_1">Edu Souza (2023)</string>
+
+    <string name="title_2">doggust2023</string>
+    <string name="info_2">Jonathan Wesslund</string>
+
+    <string name="title_3">Lichenbackfalls</string>
+    <string name="info_3">Asanee Srikijvilaikul (2023)</string>
+
+</resources>
