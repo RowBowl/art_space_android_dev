@@ -84,6 +84,9 @@ fun ArtSpaceLayout (modifier: Modifier = Modifier) {
 
     var i by remember { mutableStateOf(0) }
 
+    //var number by remember { mutableStateOf(0) }
+    val numOfArtworks = 3
+
     val artList = listOf(
         PainterResourceWrapper(
             R.drawable.goku_by_edu_souza,
@@ -124,6 +127,15 @@ fun ArtSpaceLayout (modifier: Modifier = Modifier) {
             )
         }
         ArtButtonRow(
+            number = i,
+            onPreviousClick = {
+                if(i <= 0)
+                    i = numOfArtworks - 1
+                else
+                    i -= 1
+
+            },
+            onNextClick = {i = (i + 1) % numOfArtworks},
             modifier = Modifier
         )
     }
@@ -176,10 +188,13 @@ fun ArtCaption (artTitleId: Int, artInfoId: Int, modifier: Modifier = Modifier) 
 }
 
 @Composable
-fun ArtButtonRow (modifier: Modifier = Modifier) {
+fun ArtButtonRow (
+    number: Int,
+    onPreviousClick: () -> Unit,
+    onNextClick: () -> Unit,
+    modifier: Modifier = Modifier) {
 
-    var number by remember { mutableStateOf(0) }
-    val numOfArtworks = 3
+
     Text("Current Number: $number")
 
     Row (
@@ -188,7 +203,7 @@ fun ArtButtonRow (modifier: Modifier = Modifier) {
              .padding(8.dp),
          horizontalArrangement = Arrangement.SpaceEvenly
     ) {
-        OutlinedButton(onClick = { },
+        OutlinedButton(onClick = onPreviousClick,
             Modifier
                 .size(height = 50.dp, width = 150.dp)
                 .align(Alignment.CenterVertically)
@@ -196,9 +211,7 @@ fun ArtButtonRow (modifier: Modifier = Modifier) {
             Text("Previous")
         }
         OutlinedButton(
-            onClick = {
-                      number = (number + 1) % numOfArtworks
-            },
+            onClick = onNextClick,
             Modifier
                 .size(height = 50.dp, width = 150.dp)
                 .align(Alignment.CenterVertically)
